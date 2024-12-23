@@ -1,12 +1,13 @@
 {
+  "homepage": "https://davidhowe1.github.io/np-outcome-measures", 
   "name": "-npoms",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://davidhowe1.github.io/np-outcome-measures",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
