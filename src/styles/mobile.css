@@ -1,0 +1,106 @@
+
+@media screen and (max-width: 600px) {
+
+    body {
+        min-width: none;
+    }
+
+    #root {
+        max-width: 100%;
+        padding: 12px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+        margin: 6px 0px 12px;
+    }
+
+    .field {
+        margin: 0px;
+        padding: 24px 0px;
+    }
+
+    .field label {
+        font-size: 1rem;
+    }
+
+    .field.name {
+        width: 100%;
+    }
+    
+    .field.date {
+        width: 100%;
+    }
+
+    .om_container a {
+      width: 90%;
+      font-size: 1.1rem;
+      transition: all 0.1s;
+    }
+
+    .outcome_measure_details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        font-size: 1rem;
+        padding: 0px;
+        margin: 0px 0px 0px 12px;
+    }
+
+    .outcome_measure_details .field {
+        width: 100%;
+    }
+
+    .outcome_measure {
+        margin: 12px 0px 0px;
+    }
+
+    .test span.om_option:hover {
+        border: none;
+        background-color: transparent;
+    }
+
+    .test span.om_option {
+        border: none;    }
+
+    .test span.om_option:active {
+        transition: all ease-in-out 0s;
+        background-color: aliceblue;
+    }
+
+    span.om_option label {
+        margin: 8px 18px;
+    }
+
+    .current_om_score {
+        height: 30px;
+        width: 30px;
+        font-size: 1rem;
+    }
+
+    span.om_option, span.om_option label {
+        font-size: 0.9rem;
+    }
+
+    .om_options {
+        height: 12px;
+        width: 12px;
+    }
+
+    .om_header span.title_and_score {
+        display: grid;
+        grid-template-columns: 85% 10%;
+        align-items: first baseline;
+      }
+
+}
